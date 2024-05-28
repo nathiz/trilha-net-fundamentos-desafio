@@ -1,8 +1,8 @@
 ﻿using DesafioFundamentos.Models;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
 
         // Coloca o encoding para UTF8 para exibir acentuação
@@ -27,7 +27,7 @@ class Program
         // Realiza o loop do menu
         while (exibirMenu)
         {
-            Console.Clear();
+           // Console.Clear();
             Console.WriteLine("Digite a sua opção:");
             Console.WriteLine("1 - Cadastrar veículo");
             Console.WriteLine("2 - Remover veículo");
